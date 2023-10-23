@@ -24,3 +24,20 @@ nav a{
     text-decoration: none;
     color:white;
 }
+ul li a:hover{
+    color: wheat;
+}
+
+main{
+    min-height: 90vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;    
+    font-size: 0.8rem;
+}
