@@ -17,7 +17,26 @@
         </ul>
       </nav>
     </header>
-    <main>main area</main>
+    <main>
+        <div class="container">
+            <h1>Enter your email to validate</h1>
+            <form action="/submit" method="post">
+              <!-- Text input for username -->
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+              <br><br>
+          
+              <!-- Password input -->
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+              <br><br>
+          
+              <!-- Submit button -->
+              <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+        
+    </main>
     <footer>Copywright ValidateX.com | All Rights Reserved</footer>
     <script src="js/index.js"></script>
   </body>
