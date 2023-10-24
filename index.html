@@ -9,7 +9,9 @@
   <body>
     <header>
       <nav>
-        <div class="logo">Validate X</div>
+        <div class="logo">
+          <img src="./Image/email.svg" alt="email" class="emailsvg">
+          Validate X</div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
@@ -20,20 +22,15 @@
     <main>
         <div class="container">
             <h1>Enter your email to validate</h1>
-            <form action="/submit" method="post">
-              <!-- Text input for username -->
-              <label for="username">Username:</label>
-              <input type="text" id="username" name="username" required>
-              <br><br>
-          
-              <!-- Password input -->
-              <label for="password">Password:</label>
-              <input type="password" id="password" name="password" required>
-              <br><br>
-          
-              <!-- Submit button -->
+       <input type="text" placeholder="Enter your email to validate" required id="username">
               <input type="submit" value="Submit" id="submit">
             </form>
+            <div >
+          <h2>Your results</h2>
+          <div id="resultCont">
+            
+          </div>
+        </div>
         </div>
         
     </main>
